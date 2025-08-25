@@ -1,6 +1,14 @@
-body {
-    background-color:bisque;
+.box {
+    background-color:#eee;
     border:1px solid black;
     padding:10px;
 
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows:100px 150px ;
+    grid-auto-rows:100px;
+    gap: 10px;
 }
